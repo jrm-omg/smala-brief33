@@ -41,7 +41,7 @@ On dit **un** scénario et **des** scenarii, n'est-ce pas ? Et bien en voici que
 
 ## Critères de performance
 
-- Le projet doit être organisé selon la méthode [Kanban](https://fr.wikipedia.org/wiki/Kanban_(d%C3%A9veloppement) ou [Scrum](https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement)
+- Le projet doit être organisé selon la méthode [Kanban](https://fr.wikipedia.org/wiki/Kanban_(d%C3%A9veloppement)) ou [Scrum](https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement))
 - Le nommage des variables doit être clair et cohérent
 - Faire attention à l'indentation de votre code
 - Le site doit être avant tout conçu pour une utilisation sur mobile (mobile first)
