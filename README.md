@@ -17,7 +17,7 @@ Techniquement, on déploie sur un server "une SMALA", tout comme on y déploiera
 
 ## Votre mission
 
-Créer une application web sur mesure (from scratch), en vous basant sur les scénarii utilisateurs fournis par le client.
+Créer une application web sur mesure, en vous basant sur les scénarii utilisateurs fournis par le client.
 
 ## Scenarii utilisateur
 
