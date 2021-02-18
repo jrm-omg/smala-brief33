@@ -31,13 +31,15 @@ On dit **un** scénario et **des** scenarii, n'est-ce pas ? Et bien en voici que
 
 ### Utilisateur
 - Un utilisateur doit s'être identifié (via son adresse email et son mot de passe) pour pouvoir accéder à la SMALA.
-- Un utilisateur accède à **toutes les photos** postées sur la SMALA, classées par ordre chronologique, de la plus récente à la plus ancienne.
+- Un utilisateur accède à **toutes les photos** postées par **tous les utilisateurs** de cette SMALA
+- Les photos sont classées par ordre chronologique, de la plus récente à la plus ancienne.
+- Le "[call to action](https://en.wikipedia.org/wiki/Call_to_action_(marketing))" de l'utilisateur est un bouton qui l'invite à poster une nouvelle photo
 - Un utilisateur peut accéder à son profil et en modifier son pseudo, son adresse email et un nouveau mot de passe.
 - Un utilisateur ne peut pas changer son rôle (et devenir ainsi admin, vilain).
 - Un utilisateur n'accède pas à la gestion des autres comptes utilisateurs, contrairement à l'administrateur.
 
 ### Visiteur
-- Un visiteur n'a pas accès au contenu d'un site SMALA, il doit obligatoirement s'identifier en tant qu'utilisateur. Ce qui permet de protéger le contenu du site contre les robots des moteurs de recherche.
+- Un visiteur n'a pas accès au contenu d'un site SMALA, il doit obligatoirement s'identifier en tant qu'utilisateur, ce qui permet de protéger la SMALA et son contenu des robots pilotés par les moteurs de recherche.
 
 ## Critères de performance
 
