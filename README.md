@@ -10,10 +10,10 @@ Techniquement, on déploie sur un server "une SMALA", tout comme on y déploiera
 
 ## Modalités pédagogiques
 
-- Projet à effectuer en une semaine
-- Compétences C1-C7 (sauf C4) du [RÉAC](https://cdn.hmz.tf/REAC_DWWM_V03_03052018.pdf)
+- Projet à effectuer en deux semaines
 - Travail en groupe prédéfini
 - Projet à rendre individuellement
+- Compétences C1-C7 (sauf C4) du [RÉAC](https://cdn.hmz.tf/REAC_DWWM_V03_03052018.pdf)
 
 ## Votre mission
 
