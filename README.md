@@ -1,19 +1,26 @@
-# SMALA 👨‍👦‍👦
+# SMALA, en mode Agile
 
 ![Logo de l'appli web SMALA](smala-logo-v02-web-comp.svg)
 
-Vous vous rappelez de Georges, cet ami développeur qui avait travaillé avec vous sur le projet "faceBoom" ? Et bien Georges est de retour, avec une idée: celle de développer une application web complète appelée "SMALA".
+Vous vous rappelez de Georges, cet ami développeur qui avait travaillé avec vous sur le projet "faceBoom" ? Et bien Georges est de retour, avec de nouvelles inspirations. Georges laisse tomber le nom "faceBoom", un peu trop militant et opte pour la "SMALA".
 
-SMALA permet à celles & ceux qui le souhaitent d'héberger leurs photos personnelles sur les serveurs de leur choix. Gratuitement. Sans publicité. Sans pisteur (tracker). Et dans le plus strict respect de vos données personnelles.
+SMALA permet à celles & ceux qui le souhaitent d'héberger leurs photos personnelles sur les serveurs de leur choix. Gratuitement. Sans publicité. Sans pisteur (tracker). Et dans le plus strict respect des données personnelles.
 
-Techniquement, on déploie sur un server "une SMALA", tout comme on y déploierait "un Wordpress".
+Techniquement, on déploie une SMALA sur un server, tout comme on y déploierait "un Wordpress".
 
 ## Modalités pédagogiques
 
 - Projet à effectuer en deux semaines
-- Travail en groupe prédéfini
+- Travail en groupe prédéfini par l'équipe pédagogique
+- Travail organisé selon la méthode [Kanban](https://fr.wikipedia.org/wiki/Kanban_(d%C3%A9veloppement)) ou [Scrum](https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement))
 - Projet à rendre individuellement
 - Compétences C1-C7 (sauf C4) du [RÉAC](https://cdn.hmz.tf/REAC_DWWM_V03_03052018.pdf)
+
+## Agilité
+- Le groupe définit un [product owner](https://en.wikipedia.org/wiki/Scrum_(software_development)#Product_owner) [mais qui fait parti de l'équipe de dev<sup>1</sup>]
+- Le groupe définit un [scrum master](https://en.wikipedia.org/wiki/Scrum_(software_development)#Scrum_master) [mais qui fait parti de l'équipe de dev<sup>1</sup>]
+
+<sup>1</sup> Normalement ce n'est pas le cas. Le product owner ou le scrum master ne font pas parti de l'équipe de dev. Mais pour des raisons de temps et d'organisations, exceptionnellement, ils codent également !
 
 ## Votre mission
 
@@ -52,18 +59,26 @@ On dit **un** scénario et **des** scenarii, n'est-ce pas ? Et bien en voici que
 - Vous avez carte blanche pour le rendu visuel (framework css autorisé)
 - Vous avez carte blanche sur la techno back-end (utilisation d'un framework possible)
 
+## Ressources
+- https://blog-gestion-de-projet.com/comment-organiser-son-product-backlog/
+- https://blog.adimeo.com/scrum-master
+- https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement)#Glossaire
+- https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement)#Caract%C3%A9ristiques_essentielles
+- https://www.beekast.com/fr/blog/10-exemples-de-retrospectives-agiles-a-animer-avec-beekast/
+
 ## Livrables
 
-- Lien vers votre dépot Git contenant votre projet SMALA.
-- Lien vers une démo en ligne, accompagné d'un identifiant et mot de passe valides pour tester la démo.
-- Présentation de votre rendu final devant le groupe.
+- Lien vers le backlog 
+- Lien vers les users stories
+- Lien vers le détail des sprints hebdomadaires
+- Lien vers le dépot Git contenant le projet web
+- Lien vers une démo en ligne (accompagné d'un identifiant et mot de passe valides)
+- Lien vers la rétrospective agile (qui sera utilisée lors de la présentation devant le groupe)
 
 ## Contexte du projet
 
-Organiser son travail à l'aide d'une méthode 
+Parfois la création d'une application web peut être demandée par un client. Un développeur se doit d'être capable de produire ce type de site et de travailler en équipe, grâce aux pratiques agiles, tout en respectant les étapes de production.
 
-La création d'une application web en groupe Parfois la création d'une seule page “vitrine” administrable suffit à satisfaire la demande d'un client. Un développeur se doit d'être capable de produire ce type de contenu tout en respectant les étapes de production.
-
-## Albums cools
+## Du son pour coder
 - [Moonwater, de Himemaki](https://www.youtube.com/watch?v=OtXfBaQ0_sw)
 - [Tous les matins du monde, de Jordi Savall](https://www.youtube.com/watch?v=uORg1aeD_Og&list=OLAK5uy_n9w1o7KMRtXECTGuBcAszJ9G1mu1uzfRc)
