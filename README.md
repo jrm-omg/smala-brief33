@@ -35,6 +35,7 @@ On dit **un** scénario et **des** scenarii, n'est-ce pas ? Et bien en voici que
 - Lorsque le premier compte utilisateur (admin) est créé, SMALA lui propose de se connecter à l'interface d'administration du site.
 - L'interface d'administration pour l'utilisateur dont le rôle est admin (on l'appellera "l'administrateur") permet de gérer les autres comptes utilisateurs (CRUD).
 - L'administrateur peut supprimer toutes les photos postées par tous les utilisateurs.
+- Il peut y avoir plusieurs comptes utilisateurs, dans une SMALA.
 - En plus de ses superpouvoirs, l'administrateur peut effectuer les mêmes opérations qu'un utilisateur (voir en dessous)
 
 ### Utilisateur
