@@ -65,6 +65,8 @@ On dit **un** scénario et **des** scenarii, n'est-ce pas ? Et bien en voici que
 - https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement)#Glossaire
 - https://fr.wikipedia.org/wiki/Scrum_(d%C3%A9veloppement)#Caract%C3%A9ristiques_essentielles
 - https://www.beekast.com/fr/blog/10-exemples-de-retrospectives-agiles-a-animer-avec-beekast/
+- https://trello.com/
+- https://cryptpad.roflcopter.fr/kanban/
 
 ## Livrables
 
