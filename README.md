@@ -4,9 +4,7 @@
 
 Vous vous rappelez de Georges, cet ami développeur qui avait travaillé avec vous sur le projet "faceBoom" ? Et bien Georges est de retour, avec de nouvelles inspirations. Georges laisse tomber le nom "faceBoom", un peu trop militant et opte pour la "SMALA".
 
-SMALA permet à celles & ceux qui le souhaitent d'héberger leurs photos personnelles sur les serveurs de leur choix. Gratuitement. Sans publicité. Sans pisteur (tracker). Et dans le plus strict respect des données personnelles.
-
-Techniquement, on déploie une SMALA sur un server, tout comme on y déploierait "un Wordpress".
+SMALA est une appli web qui va permettre à celles et ceux qui le souhaitent d'héberger leurs photos personnelles sur les serveurs de leur choix, gratuitement, sans publicité et sans aucun pisteur (tracker), pour la plus grande joie des données personnelles.
 
 ## Modalités pédagogiques
 
@@ -17,6 +15,7 @@ Techniquement, on déploie une SMALA sur un server, tout comme on y déploierait
 - Compétences C1-C7 (sauf C4) du [RÉAC](https://cdn.hmz.tf/REAC_DWWM_V03_03052018.pdf)
 
 ## Agilité
+
 - Le groupe définit un [product owner](https://en.wikipedia.org/wiki/Scrum_(software_development)#Product_owner) [mais qui fait parti de l'équipe de dev<sup>1</sup>]
 - Le groupe définit un [scrum master](https://en.wikipedia.org/wiki/Scrum_(software_development)#Scrum_master) [mais qui fait parti de l'équipe de dev<sup>1</sup>]
 
@@ -24,32 +23,25 @@ Techniquement, on déploie une SMALA sur un server, tout comme on y déploierait
 
 ## Votre mission
 
-Créer une application web sur mesure, en vous basant sur les scénarii utilisateurs fournis par le client.
+Créer une application web sur-mesure, en vous basant sur les user stories fournies par le client.
 
-## Scenarii utilisateur
+## User stories
 
-On dit **un** scénario et **des** scenarii, n'est-ce pas ? Et bien en voici quelques-un, classés par rôle.
+Les robots des moteurs de recherche ne peuvent pas indexer les photos publiées dans une SMALA. Raison pour laquelle il existe trois rôles dans une SMALA :
 
-### Administrateur
-- Une fois déployé sur un serveur (fichiers & base de données), SMALA propose de créer le premier des comptes utilisateurs : celui dont le rôle sera "admin". Un compte utilisateur est composé d'un pseudo, d'une adresse mail, d'un mot de passe ainsi que d'un rôle (rôle utilisateur ou rôle admin).
-- Lorsque le premier compte utilisateur (admin) est créé, SMALA lui propose de se connecter à l'interface d'administration du site.
-- L'interface d'administration pour l'utilisateur dont le rôle est admin (on l'appellera "l'administrateur") permet de gérer les autres comptes utilisateurs (CRUD).
-- L'administrateur peut supprimer toutes les photos postées par tous les utilisateurs.
-- Il peut y avoir plusieurs comptes utilisateurs, dans une SMALA.
-- En plus de ses superpouvoirs, l'administrateur peut effectuer les mêmes opérations qu'un utilisateur (voir en dessous)
-
-### Utilisateur
-- Un utilisateur doit s'être identifié (via son adresse email et son mot de passe) pour pouvoir accéder à la SMALA.
-- Un utilisateur voit **toutes les photos** postées par **tous les utilisateurs** de cette SMALA
-- Les photos sont classées par ordre chronologique, de la plus récente à la plus ancienne.
-- Le "[call to action](https://en.wikipedia.org/wiki/Call_to_action_(marketing))" de l'utilisateur est un bouton qui l'invite à poster une nouvelle photo.
-- Un utilisateur peut supprimer ses photos et uniquement les siennes.
-- Un utilisateur peut accéder à son profil et en modifier son pseudo, son adresse email et un nouveau mot de passe.
-- Un utilisateur ne peut pas changer son rôle (et devenir ainsi admin, vilain).
-- Un utilisateur n'accède pas à la gestion des autres comptes utilisateurs, contrairement à l'administrateur.
-
-### Visiteur
-- Un visiteur n'a pas accès au contenu d'un site SMALA, il doit obligatoirement s'identifier en tant qu'utilisateur, ce qui permet de protéger la SMALA et son contenu des robots pilotés par les moteurs de recherche.
+- rôle visiteur : aucun accès, à part la page de connexion
+- rôle utilisateur :
+  - peut voir toutes les photos
+  - peut ajouter de nouvelles photos
+  - peut supprimer les photos **qu'il a lui-même ajouté**
+  - peut éditer son profil (pseudo, email, mot de passe)
+- rôle administrateur :
+  - peut voir toutes les photos
+  - peut ajouter de nouvelles photos
+  - peut supprimer les photos **de n'importe quel utilisateur ou administrateur**
+  - peut éditer son profil (pseudo, email, mot de passe, rôle)
+  - peut ajouter un autre utilisateur
+  - peut éditer le profil d'un autre utilisateur (pseudo, email, mot de passe, rôle)
 
 ## Critères de performance
 
@@ -85,3 +77,10 @@ Parfois la création d'une application web peut être demandée par un client. U
 ## Du son pour coder
 - [Moonwater, de Himemaki](https://www.youtube.com/watch?v=OtXfBaQ0_sw)
 - [Tous les matins du monde, de Jordi Savall](https://www.youtube.com/watch?v=uORg1aeD_Og&list=OLAK5uy_n9w1o7KMRtXECTGuBcAszJ9G1mu1uzfRc)
+
+## Pour aller plus loin
+
+Vous avez terminé le brief ? Alors voici de quoi aller plus loin.
+
+### Déploiement d'une SMALA
+Lorsque l'on installe une nouvelle SMALA sur un server, un petit "setup" nous permet de créer le premier compte utilisateur. Ce premier compte sera un compte administrateur.
