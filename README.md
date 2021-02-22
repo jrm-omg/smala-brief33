@@ -34,15 +34,15 @@ On dit **un** scénario et **des** scenarii, n'est-ce pas ? Et bien en voici que
 - Une fois déployé sur un serveur (fichiers & base de données), SMALA propose de créer le premier des comptes utilisateurs : celui dont le rôle sera "admin". Un compte utilisateur est composé d'un pseudo, d'une adresse mail, d'un mot de passe ainsi que d'un rôle (rôle utilisateur ou rôle admin).
 - Lorsque le premier compte utilisateur (admin) est créé, SMALA lui propose de se connecter à l'interface d'administration du site.
 - L'interface d'administration pour l'utilisateur dont le rôle est admin (on l'appellera "l'administrateur") permet de gérer les autres comptes utilisateurs (CRUD).
-- L'administrateur peut gérer toutes les photos présentes et les supprimer s'il le souhaite.
+- L'administrateur peut supprimer toutes les photos postées par tous les utilisateurs.
 - En plus de ses superpouvoirs, l'administrateur peut effectuer les mêmes opérations qu'un utilisateur (voir en dessous)
 
 ### Utilisateur
 - Un utilisateur doit s'être identifié (via son adresse email et son mot de passe) pour pouvoir accéder à la SMALA.
-- Un utilisateur accède à **toutes les photos** postées par **tous les utilisateurs** de cette SMALA
+- Un utilisateur voit **toutes les photos** postées par **tous les utilisateurs** de cette SMALA
 - Les photos sont classées par ordre chronologique, de la plus récente à la plus ancienne.
 - Le "[call to action](https://en.wikipedia.org/wiki/Call_to_action_(marketing))" de l'utilisateur est un bouton qui l'invite à poster une nouvelle photo.
-- Un utilisateur peut gérer uniquement ses photos et les supprimer.
+- Un utilisateur peut supprimer ses photos et uniquement les siennes.
 - Un utilisateur peut accéder à son profil et en modifier son pseudo, son adresse email et un nouveau mot de passe.
 - Un utilisateur ne peut pas changer son rôle (et devenir ainsi admin, vilain).
 - Un utilisateur n'accède pas à la gestion des autres comptes utilisateurs, contrairement à l'administrateur.
