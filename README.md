@@ -33,13 +33,13 @@ Les robots des moteurs de recherche ne peuvent pas indexer les photos publiées 
 - rôle utilisateur :
   - peut voir toutes les photos
   - peut ajouter de nouvelles photos
-  - peut supprimer les photos **qu'il a lui-même ajouté**
+  - peut supprimer les photos **qu'il a lui-même ajoutées**
   - peut éditer son profil (pseudo, email, mot de passe)
 - rôle administrateur :
   - peut voir toutes les photos
   - peut ajouter de nouvelles photos
   - peut supprimer les photos **de n'importe quel utilisateur ou administrateur**
-  - peut éditer son profil (pseudo, email, mot de passe, rôle)
+  - peut éditer son profil (pseudo, email, mot de passe, **rôle**)
   - peut ajouter un autre utilisateur
   - peut éditer le profil d'un autre utilisateur (pseudo, email, mot de passe, rôle)
 
